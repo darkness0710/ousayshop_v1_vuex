@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "0",
+            "server": "S394",
+            "description": "Tình trạng: Trắng thông tin",
+            "selled": "1",
+            "cost": 3000000
+        },
+        {
+            "id": "2",
+            "type": "1",
+            "server": "N198",
+            "description": "Tình trạng: Trắng thông tin",
+            "selled": "1",
+            "cost": 300000
+        },
+        {
+            "id": "3",
+            "type": "0",
+            "server": "S400",
+            "description": "Tình trạng: Trắng thông tin",
+            "selled": "1",
+            "cost": 200000
+        },
+        {
+            "id": "4",
+            "type": "0",
+            "server": "S377",
+            "description": "Tình trạng: Trắng thông tin",
+            "selled": "1",
+            "cost": 400000
+        },
+        {
+            "id": "5",
+            "type": "0",
+            "server": "S258",
+            "description": "Tình trạng: Mail",
+            "selled": "0",
+            "cost": 300000
+        },
+        {
+            "id": "6",
+            "type": "0",
+            "server": "S332",
+            "description": "Tình trạng: Trắng thông tin",
+            "selled": "0",
+            "cost": 400000
+        }
+    ]
+}

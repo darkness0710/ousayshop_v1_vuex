@@ -1,0 +1,19 @@
+<script src="https://apis.google.com/js/platform.js"></script>
+<div id="youtubeContainer"></div>   
+
+<script>
+
+function renderYtSubscribeButton(channel) {
+      var container = document.getElementById('youtubeContainer');
+      var options = {
+        'channel': channel,
+        'layout': 'default'
+      };
+      gapi.ytsubscribe.render(container, options);
+    }
+
+window.onload = function() {
+renderYtSubscribeButton("GoogleDevelopers");
+}  
+ 
+</script>
