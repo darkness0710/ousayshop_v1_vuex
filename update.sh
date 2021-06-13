@@ -7,4 +7,4 @@ git add -A
 git commit -m "update"
 
 
-git push -f https://github.com/ousayshop/base_ousayshop.github.io.git master
+git push -f https://github.com/ousayshop/base_ousayshop.git master
