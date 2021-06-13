@@ -20,4 +20,4 @@ cd -
 git add -A
 git commit -m "update"
 
-git push -f https://github.com/ousayshop/base_ousayshopgit master
+git push -f https://github.com/ousayshop/base_ousayshop.git master
