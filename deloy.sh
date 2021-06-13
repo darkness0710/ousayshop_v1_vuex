@@ -13,9 +13,9 @@ cp index.html 404.html
 git init
 git add -A
 git commit -m "update"
+#git remote add origin git@github.com:ousayshop/ousayshop.github.io.git
 
-
-git push -f https://github.com/ousayshop/ousayshop.github.io.git master:gh-pages
+git push -f git@github.com:ousayshop/ousayshop.github.io.git master:gh-pages
 
 cd -
 
