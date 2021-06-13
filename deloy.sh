@@ -4,7 +4,9 @@ set -e
 
 git pull origin master --force
 
+npm install
 npm run build
+
 cd docs
 cp index.html 404.html
 
