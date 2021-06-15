@@ -3,12 +3,12 @@
         <div class="section">
             <div class="container">
                 <div class="about-office">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img class="img-raised rounded img-fluid" alt="Raised Image" src="https://pic.youzu.com/hd/sg2/online/dist/pc/images/news-bg.jpg">
-                    </div>   
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img class="img-raised rounded img-fluid" alt="Raised Image" src="https://pic.youzu.com/hd/sg2/online/dist/pc/images/news-bg.jpg">
+                        </div>   
+                    </div>
                 </div>
-            </div>
                 <h2 class="section-title">Danh sách các loại tài khoản</h2>
                 <div class="row">
                     <div class="col-md-3">
@@ -76,9 +76,9 @@
                         Không tìm thấy tài khoản thỏa mãn!
                     </div>
                 </div>
-                <br>
             </div>
         </div>
+        <footer-component></footer-component>
     </div>
 </template>
 

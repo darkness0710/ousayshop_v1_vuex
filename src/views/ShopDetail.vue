@@ -38,6 +38,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-12 col-sm-12">
+                        <footer-component></footer-component>
+                    </div>
                 </div>
             </div>
         </div>
