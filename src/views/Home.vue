@@ -43,8 +43,7 @@ export default {
             slides: [
                 { 'src': require(`@/assets/banners/01.jpg`) },
                 { 'src': require(`@/assets/banners/02.jpg`) },
-                { 'src': require(`@/assets/banners/03.jpg`) },
-                { 'src': require(`@/assets/banners/04.jpg`) }
+                { 'src': require(`@/assets/banners/03.jpg`) }
             ],
             options: {
                 autoWidth: false,
