@@ -73,6 +73,8 @@ export default {
             'layout': 'default'
         };
         window.gapi.ytsubscribe.render(container, options);
+
+        document.title = 'OusayG Shop';
     }  
 }
 </script>

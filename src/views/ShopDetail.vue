@@ -125,6 +125,7 @@ export default {
                 this.slides.push({src: url})
             }
         }
+        document.title = 'OusayG Shop';
     },
     mounted () {
     }

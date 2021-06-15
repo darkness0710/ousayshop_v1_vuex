@@ -156,6 +156,9 @@ export default {
         this.items = DataJson.data;
         this.masterItems = DataJson.data;
         this.checked = ['0', '1'];
+    },
+    created() {
+        document.title = 'OusayG Shop';
     }
 }
 </script>
