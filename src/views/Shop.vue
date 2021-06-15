@@ -76,9 +76,11 @@
                         Không tìm thấy tài khoản thỏa mãn!
                     </div>
                 </div>
+                <div class="col-md-12">
+                    <footer-component></footer-component>
+                </div>
             </div>
         </div>
-        <footer-component></footer-component>
     </div>
 </template>
 

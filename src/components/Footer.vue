@@ -41,7 +41,7 @@
                             <div class="g-ytsubscribe" data-channelid="UC5rx1pp9euMdXl-RpGOJVMg" data-layout="full" data-count="default"></div>
                         </div>
                         <div id="fb-root"></div>
-                        <div class="fb-page video-wrapper" data-href="https://www.facebook.com/Tuann3Q" data-tabs="timeline" data-width="100" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Tuann3Q" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Tuann3Q">Shop Acc OusayG</a></blockquote></div>
+                        <div class="fb-page video-wrapper" data-href="https://www.facebook.com/Tuann3Q" data-tabs="timeline" data-width="250" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Tuann3Q" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Tuann3Q">Shop Acc OusayG</a></blockquote></div>
                     </div>  
                 </div>
             </div>
