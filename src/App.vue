@@ -27,9 +27,7 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="button-container nav-item">
-                        <router-link :to="{ name: 'Shop' }" class="btn btn-primary btn-round btn-block">
-                            <i class="material-icons">shopping_cart</i> OusayG Shop
-                        </router-link>
+                        <a href="/shop" class="btn btn-primary btn-round btn-block router-link-exact-active router-link-active" aria-current="page"><i class="material-icons">shopping_cart</i> OusayG Shop </a>
                     </li>
                 </ul>
             </div>

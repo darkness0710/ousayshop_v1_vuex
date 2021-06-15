@@ -84,6 +84,10 @@
     </div>
 </template>
 
+<script src="https://apis.google.com/js/platform.js"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v11.0&appId=193002364567174&autoLogAppEvents=1" nonce="miHMUJnS"></script>
+
+
 <style>
     .mt-100 {
         margin-top: 100px !important;
@@ -110,7 +114,8 @@ export default {
     },
     methods: {
         redirect(id = 1) {
-            this.$router.push({ name: 'ShopDetail', params: {id: id}  })
+            // this.$router.push({ name: 'ShopDetail', params: {id: id}  })
+            window.location.href = `/shop/${id}`;
         },
         formatCost(cost) {
             var formatter = new Intl.NumberFormat('en-US', {
