@@ -39,7 +39,15 @@
                             <div class="g-ytsubscribe" data-channelid="UC5rx1pp9euMdXl-RpGOJVMg" data-layout="full" data-count="default"></div>
                         </div>
                         <div id="fb-root"></div>
-                        <div class="fb-page video-wrapper" data-href="https://www.facebook.com/Tuann3Q" data-tabs="timeline" data-width="300" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Tuann3Q" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Tuann3Q">Shop Acc OusayG</a></blockquote></div>
+
+
+                        <div class="col-md-12">
+                            <div class="iframe-container video-wrapper">
+                                <iframe height="100" width="100" :src="youtube_src"  frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+
+                        <div class="fb-page video-wrapper" data-href="https://www.facebook.com/Tuann3Q" data-tabs="timeline" data-width="500" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Tuann3Q" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Tuann3Q">Shop Acc OusayG</a></blockquote></div>
                     </div>  
                 </div>
             </div>
@@ -52,7 +60,34 @@
 
 <script>
 export default {
-  name: 'footer',
+    name: 'footer',
+    data() {
+        return {
+            json: {},
+            youtube_src: ''
+        };
+    },
+    created() {
+        // 
+        var channelID = "UC5rx1pp9euMdXl-RpGOJVMg";
+        var reqURL = "https://www.youtube.com/feeds/videos.xml?channel_id=";
+        fetch("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(reqURL)+channelID)
+            .then(r => r.json())
+            .then(json => {
+              this.json = json;
+              // this.youtube_src = json.items[0].link;
+              let link = json.items[0].link;
+              let id = link.substr(link.indexOf("=")+1);
+              this.youtube_src = "https://youtube.com/embed/"+ id + "?controls=0&showinfo=0&rel=0";
+            });
+
+        var container = document.getElementById('youtubeContainer');
+        var options = {
+            'channel': 'GoogleDevelopers',
+            'layout': 'default'
+        };
+        window.gapi.ytsubscribe.render(container, options);
+    }  
 }
 </script>
 

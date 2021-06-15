@@ -6,15 +6,26 @@
                     <br>
                 </div>
                 <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <template>
+                          <splide :options="options">
+                            <splide-slide v-for="slide in slides" :key="slide.src">
+                                <img :src="slide.src" class="force-img">
+                            </splide-slide>
+                          </splide>
+                        </template>
+                    </div>
+                </div>
+                <!-- <div class="row">
                     <div class="col-md-12">
                         <img class="img-raised rounded img-fluid" alt="Raised Image" src="https://scontent-hkt1-2.xx.fbcdn.net/v/t1.6435-9/186498675_105218315106072_6215160601551109314_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=e3f864&_nc_ohc=x8JVo_vRE5YAX_T9PoS&tn=pxyiGESX3dFsq9Rx&_nc_ht=scontent-hkt1-2.xx&oh=78b2d796da630e98d98da0801d325479&oe=60CB9BB8">
                     </div>   
-                </div>
-                <div class="col-md-12 mt-30">
+                </div> -->
+               <!--  <div class="col-md-2 mt-30">
                     <div class="iframe-container video-wrapper">
-                        <iframe height="500" width="1100" :src="youtube_src"  frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
+                        <iframe height="200" width="300" :src="youtube_src"  frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen=""></iframe>
                     </div>
-                </div>
+                </div> -->
             </div>
             <footer-component></footer-component>
         </div>
@@ -28,7 +39,19 @@ export default {
     data() {
         return {
             json: {},
-            youtube_src: ''
+            youtube_src: '',
+            slides: [
+                { 'src': require(`@/assets/banners/01.jpg`) },
+                { 'src': require(`@/assets/banners/02.jpg`) },
+                { 'src': require(`@/assets/banners/03.jpg`) },
+                { 'src': require(`@/assets/banners/04.jpg`) }
+            ],
+            options: {
+                autoWidth: false,
+                autoHeight: false,
+                autoplay: true,
+                focus: 'center'
+            },
         };
     },
     created() {
