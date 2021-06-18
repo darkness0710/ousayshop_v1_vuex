@@ -5,7 +5,7 @@
                 <div class="card card-profile card-plain">
                     <div class="card-avatar">
                         <a href="#pablo">
-                            <img class="img" src="https://scontent-hkt1-2.xx.fbcdn.net/v/t1.6435-9/174613014_3003591076556521_2728226714239194251_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=b18AiGvE1AUAX9uN0_f&tn=2HmP0h4Ie2EJ92ks&_nc_ht=scontent-hkt1-2.xx&oh=4d79554941d3ca8e0a35f35f5461e42c&oe=60D02CB1">
+                            <img class="img" src="../assets/img/home_avatar.jpg">
                         </a>
                     </div>
                     <div class="card-body">

@@ -1,6 +1,12 @@
 {
-	"data": [
-    	["0", "Thiếu niên 3q-9g"],
-    	["1", "Thiếu niên 3q-yoyo"]
+	"tn3q": [
+    	["0", "TN3Q-9G"],
+    	["1", "TN3Q-YOYO"]
+	],
+	"new_omg3q": [
+    	["2", "Tân-OMG-3Q-Quần"],
+    	["3", "Tân-OMG-3Q-Ngụy"],
+    	["4", "Tân-OMG-3Q-Ngô"],
+    	["5", "Tân-OMG-3Q-Thục"]
 	]
 }

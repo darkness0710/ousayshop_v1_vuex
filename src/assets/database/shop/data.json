@@ -47,6 +47,38 @@
             "description": "Tình trạng: Trắng thông tin",
             "selled": "0",
             "cost": 400000
+        },
+        {
+            "id": "7",
+            "type": "2",
+            "server": "S 1",
+            "description": "Tình trạng: Trắng thông tin",
+            "selled": "0",
+            "cost": 0
+        },
+        {
+            "id": "8",
+            "type": "3",
+            "server": "S 1",
+            "description": "Tình trạng: Trắng thông tin",
+            "selled": "0",
+            "cost": 0
+        },
+        {
+            "id": "9",
+            "type": "4",
+            "server": "S 1",
+            "description": "Tình trạng: Trắng thông tin",
+            "selled": "0",
+            "cost": 0
+        },
+        {
+            "id": "10",
+            "type": "5",
+            "server": "S 1",
+            "description": "Tình trạng: Trắng thông tin",
+            "selled": "0",
+            "cost": 0
         }
     ]
 }
