@@ -47,6 +47,14 @@
             "description": "Tình trạng: Trắng thông tin",
             "selled": "0",
             "cost": 400000
+        },
+        {
+            "id": "7",
+            "type": "0",
+            "server": "SXXX",
+            "description": "Tình trạng: Trắng thông tin",
+            "selled": "0",
+            "cost": 400000
         }
     ]
 }
