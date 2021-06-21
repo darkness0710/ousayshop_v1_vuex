@@ -10,9 +10,12 @@
   "dependencies": {
     "@splidejs/vue-splide": "^0.3.5",
     "core-js": "^3.6.5",
+    "firebase": "^8.6.8",
     "vue": "^2.6.11",
     "vue-nouislider": "^1.0.1",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vue-toastr": "^2.1.2",
+    "vuefire": "^2.2.5"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

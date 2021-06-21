@@ -1,16 +1,17 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-
-import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 import VueSplide from '@splidejs/vue-splide';
-
 import Footer from '@/components/Footer.vue'
-
-
+import { firestorePlugin } from 'vuefire'
+import VueToastr from "vue-toastr";
+import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 import './assets/js/youtube.js'
 
+
 Vue.use( VueSplide );
+Vue.use( firestorePlugin );
+Vue.use( VueToastr );
 
 Vue.component('footer-component', Footer);
 

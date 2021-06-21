@@ -29,6 +29,10 @@
                     <li class="button-container nav-item">
                         <a href="/shop" class="btn btn-primary btn-round btn-block router-link-exact-active router-link-active" aria-current="page"><i class="material-icons">shopping_cart</i> OusayG Shop </a>
                     </li>
+                    &nbsp;
+                    <li class="button-container nav-item">
+                        <a href="/feedback" class="btn btn-rose btn-round btn-block router-link-exact-active router-link-active" aria-current="page"><i class="material-icons">view_carousel</i> Góp ý </a>
+                    </li>
                 </ul>
             </div>
         </div>
