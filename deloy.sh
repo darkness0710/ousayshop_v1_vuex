@@ -4,6 +4,11 @@ set -e
 
 git pull origin master --force
 
+git add -A
+git commit -m "update"
+
+git merge --continue
+
 npm install
 npm run build
 
