@@ -37,7 +37,7 @@
             "type": "0",
             "server": "S258",
             "description": "Tình trạng: Mail",
-            "selled": "0",
+            "selled": "1",
             "cost": 300000
         },
         {
@@ -45,16 +45,16 @@
             "type": "0",
             "server": "S332",
             "description": "Tình trạng: Trắng thông tin",
-            "selled": "0",
+            "selled": "1",
             "cost": 400000
         },
         {
             "id": "7",
             "type": "2",
-            "server": "S 1",
+            "server": "S 27",
             "description": "Tình trạng: Trắng thông tin",
             "selled": "0",
-            "cost": 0
+            "cost": 300000
         },
         {
             "id": "8",
