@@ -38,6 +38,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-12 col-sm-12">
+                    <footer-component></footer-component>
+                    </div>
                 </div>
             </div>
         </div>
@@ -92,7 +95,7 @@ export default {
             return formatter.format(cost).replace('$', '') + ' VNĐ';
         },
         formatTitle(item) {
-            let prefix = this.types[item.type][1];
+            let prefix = this.types.find(x => x[0] == item.type);
             return `${prefix} S ${item.server}`;
         },
         formatContent(item) {
@@ -106,7 +109,16 @@ export default {
     },
     created() {
         this.item = DataJson.data.find(x => x.id === this.$route.params.id);
-        this.types = this.types = TypeJson.data;
+        
+        let tn3q_types = ['0', '1'];
+        let new_omg3q_types = ['2', '3', '4', '5'];
+
+        if (tn3q_types.includes(this.item.type)) {
+            this.types = TypeJson.tn3q;
+        }
+        if (new_omg3q_types.includes(this.item.type)) {
+            this.types = TypeJson.new_omg3q;
+        }
         this.slides = [];
         const illustrations = require.context(
           '@/assets/database/shop/',
@@ -122,6 +134,7 @@ export default {
                 this.slides.push({src: url})
             }
         }
+        document.title = 'OusayG Shop';
     },
     mounted () {
     }

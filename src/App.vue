@@ -1,17 +1,16 @@
 <template>
-  <div id="app">
-    <!-- Messenger Plugin chat Code -->
-    <div id="fb-root"></div>
+    <div id="app">
+        <!-- Messenger Plugin chat Code -->
+        <div id="fb-root"></div>
 
-    <!-- Your Plugin chat code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+        <!-- Your Plugin chat code -->
+        <div id="fb-customer-chat" class="fb-customerchat"></div>
 
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 
 
-    <nav class="navbar bg-white fixed-top navbar-expand-lg " id="sectionsNav">
+        <nav class="navbar bg-white fixed-top navbar-expand-lg " id="sectionsNav">
         <div class="container">
             <div class="navbar-translate">
                 <a class="navbar-brand custom-brand" href="/" id="flip">
@@ -28,16 +27,14 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class="button-container nav-item">
-                        <router-link :to="{ name: 'Shop' }" class="btn btn-primary btn-round btn-block">
-                            <i class="material-icons">shopping_cart</i> OusayG Shop
-                        </router-link>
+                        <a href="/shop" class="btn btn-primary btn-round btn-block router-link-exact-active router-link-active" aria-current="page"><i class="material-icons">shopping_cart</i> OusayG Shop </a>
                     </li>
                 </ul>
             </div>
         </div>
-    </nav>
-    <router-view/>
-  </div>
+        </nav>
+        <router-view/>
+    </div>
 </template>
 
 <style>
