@@ -78,7 +78,7 @@
             "server": "S 1",
             "description": "Tình trạng: Trắng thông tin",
             "selled": "0",
-            "cost": 1
+            "cost": 0
         }
     ]
 }
