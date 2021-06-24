@@ -2,11 +2,11 @@
     "data": [
         {
             "id": "1",
-            "type": "0",
-            "server": "S394",
+            "type": "1",
+            "server": "N188",
             "description": "Tình trạng: Trắng thông tin",
-            "selled": "1",
-            "cost": 3000000
+            "selled": "0",
+            "cost": 800000
         },
         {
             "id": "2",
