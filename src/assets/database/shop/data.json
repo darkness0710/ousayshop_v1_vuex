@@ -11,18 +11,18 @@
         {
             "id": "2",
             "type": "1",
-            "server": "N198",
-            "description": "Tình trạng: Trắng thông tin",
-            "selled": "1",
-            "cost": 300000
+            "server": "S282",
+            "description": "Tình trạng: Mail chính chủ",
+            "selled": "0",
+            "cost": 3000000
         },
         {
             "id": "3",
-            "type": "0",
-            "server": "S400",
+            "type": "2",
+            "server": "S68",
             "description": "Tình trạng: Trắng thông tin",
-            "selled": "1",
-            "cost": 200000
+            "selled": "0",
+            "cost": 300000
         },
         {
             "id": "4",
