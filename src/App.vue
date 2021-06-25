@@ -12,11 +12,9 @@
 
         <nav class="navbar bg-white fixed-top navbar-expand-lg " id="sectionsNav">
         <div class="container">
-            <div class="navbar-translate">
-                <a class="navbar-brand custom-brand" href="/" id="flip">
-                    <div><div>Ousay Gaming</div></div>
-                    <div><div>Ousay Gaming</div></div>
-                    <div><div>Ousay Gaming</div></div>
+            <div class="navbar-translate custom-logo">
+                <a href="/">
+                    <img src="/img/logo.f4269b5e.png" style="width: 15%;">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,7 +29,7 @@
                     </li>
                     &nbsp;
                     <li class="button-container nav-item">
-                        <a href="/feedback" class="btn btn-rose btn-round btn-block router-link-exact-active router-link-active" aria-current="page"><i class="material-icons">view_carousel</i> Góp ý </a>
+                        <a href="/feedback" class="btn btn-rose btn-round btn-block router-link-exact-active router-link-active" aria-current="page"><i class="material-icons">view_carousel</i> Góp Ý</a>
                     </li>
                 </ul>
             </div>
@@ -42,49 +40,14 @@
 </template>
 
 <style>
-
-#flip {
-  height:50px;
-  overflow:hidden;
-}
-
-#flip > div > div {
-  color:#fff;
-  padding:4px 12px;
-  height:45px;
-  margin-bottom:45px;
-  display:inline-block;
-}
-
-#flip div:first-child {
-  animation: show 10s linear infinite;
-}
-
-#flip div div {
-  background:#42c58a;
-}
-#flip div:first-child div {
-  background:#4ec7f3;
-}
-#flip div:last-child div {
-  background:#DC143C;
-}
-
-@keyframes show {
-  0% {margin-top:-270px;}
-  5% {margin-top:-180px;}
-  33% {margin-top:-180px;}
-  38% {margin-top:-90px;}
-  66% {margin-top:-90px;}
-  71% {margin-top:0px;}
-  99.99% {margin-top:0px;}
-  100% {margin-top:-270px;}
-}
-
 .custom-brand {
     color: #f44336 !important;
     font-weight: bolder !important;
     font-size: 30px !important;
+}
+
+.custom-logo {
+    background-image: url('./assets/img/logo.png') !important;
 }
 </style>
 
